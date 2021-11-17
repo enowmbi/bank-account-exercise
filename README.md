@@ -1,9 +1,12 @@
-##Introduction##
+
+[![Ruby](https://github.com/enowmbi/bank-account-exercise/actions/workflows/ruby.yml/badge.svg)](https://github.com/enowmbi/bank-account-exercise/actions/workflows/ruby.yml)
+
+# Introduction
 
 Bank account class to recreate some of the common transactions that occur inside a bank
 Use best practices and solid principles to show case your design and development skills as well as write code that can be easily maintained.
 
-##Tasks##
+# Tasks
 
 1. BankAccount class should have a private method to generate user account number which is generated randomly ✅ 
 2. BankAccount should have a method for returning user’s checking account balance ✅ 
