@@ -31,5 +31,8 @@ jobs:
       with:
         ruby-version: ${{ matrix.ruby-version }}
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+    - run: bundle install
+    - name: Rubocop
+      run: rubocop    
     - name: Run tests
-      run: rspec .
+      run: bundle exec rspec .
